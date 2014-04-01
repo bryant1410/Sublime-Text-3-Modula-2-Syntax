@@ -34,7 +34,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>\b(FUNCTION|PROCEDURE)\b\s+(\w+(\.\w+)?)(\(.*?\))?;\s*(?=ATTRIBUTE|FORWARD|EXTERNAL)</string>
+            <string>\b(PROCEDURE)\b\s+(\w+(\.\w+)?)(\(.*?\))?;\s*(?=ATTRIBUTE|FORWARD|EXTERNAL)</string>
             <key>name</key>
             <string>meta.function.prototype.modula2</string>
         </dict>
@@ -53,7 +53,7 @@
                 </dict>
             </dict>
             <key>match</key>
-            <string>\b(FUNCTION|PROCEDURE)\b\s+(\w+(\.\w+)?)</string>
+            <string>\b(PROCEDURE)\b\s+(\w+(\.\w+)?)</string>
             <key>name</key>
             <string>meta.function.modula2</string>
         </dict>
