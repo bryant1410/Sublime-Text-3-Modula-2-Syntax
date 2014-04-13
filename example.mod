@@ -7,9 +7,9 @@ IMPLEMENTATION MODULE Example;
 CONST
   CONSTANT = 20;
 TYPE
-  StringType = ARRAY [0 .. CONSTANT] OF ARRAY [0 .. CONSTANT] OF CHAR;
+  StringType = ARRAY [0 .. CONSTANT-1] OF ARRAY [0 .. CONSTANT-1] OF CHAR;
 CONST
-  StringsBoolean  = StringType {"FALSE", "TRUE", "" BY (CONSTANT-1)};
+  StringsBoolean  = StringType {"FALSE", "TRUE", "" BY (CONSTANT-2)};
 
 PROCEDURE ExampleProcedure (arg: CARDINAL): CARDINAL;
 VAR
