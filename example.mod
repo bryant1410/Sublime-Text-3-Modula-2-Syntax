@@ -26,4 +26,6 @@ BEGIN (* Comment *)
     res := 3;
   END;
   RETURN res;
-END CrearStrCondicion;
+END ExampleProcedure;
+
+END Example.
