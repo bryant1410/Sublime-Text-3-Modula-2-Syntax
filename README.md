@@ -8,7 +8,7 @@ The sublime-package file necessary for having the syntax highlighted and colored
 
 Just download the file Modula2.sublime-package and move it to the folder Packages of your Sublime Text 3 installation folder.
 
-I think is necessary to install [Package Control](https://sublime.wbond.net/installation) first.
+I think it is necessary to install [Package Control](https://sublime.wbond.net/installation) first.
 
 ## Contribute ##
 
