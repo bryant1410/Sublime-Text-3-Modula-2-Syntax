@@ -1,3 +1,5 @@
+DEPRECATED in favor of: https://github.com/harogaston/Sublime-Modula-2
+
 # Modula 2 Syntax for Sublime Text 3 #
 
 The sublime-package file necessary for having the syntax highlighted and colored for Modula 2 programming language. It includes the new keywords, the new comment syntax and also supports nested comments.
